@@ -18,6 +18,6 @@ int main(){
         maxTerm=max(maxTerm,arr[i]);
         minTerm=min(minTerm,arr[i]);
     }
-    cout<<maxTerm<<" "<<minTerm;
+    cout<<"Max term :"<<maxTerm<<endl<<"Min term :"<<minTerm;
     return 0;
 }
