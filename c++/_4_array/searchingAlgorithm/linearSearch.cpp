@@ -1,3 +1,4 @@
+//Note: The time complexity of linear search is O(n).
 #include<iostream>
 using namespace std;
 void linearSearch(int arr[],int n,int key){
