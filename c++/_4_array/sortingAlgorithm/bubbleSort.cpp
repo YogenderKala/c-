@@ -10,15 +10,23 @@ int main(){
     {
         cin>>arr[i];
     }
-
-   for (int i = 1; i <n-1; i++)
+   int counter =1;
+   while(counter<=n-1)
    {
-       for (int j =0 ; j <n-i; j++)
+       for (int i =0 ; i <n-counter; i++)
        {
-           if(arr[j]<)
+           if(arr[i]>arr[i+1]){
+               int temp=arr[i];
+               arr[i]=arr[i+1];
+               arr[i+1]=temp;
+           }
        }
-
+    counter++;
    }
 
-
+for (int i = 0; i < n; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+return 0;
 }
