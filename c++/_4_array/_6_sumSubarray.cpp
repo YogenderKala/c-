@@ -12,9 +12,6 @@ int main(){
         cin>>arr[i];
     }
     int start=0,end=0,currentSum=0;
-    while (start<end)
-    {
 
-    }
 
 }
