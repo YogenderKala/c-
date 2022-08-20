@@ -11,7 +11,15 @@ int main(){
     {
         cin>>arr[i];
     }
-    int start=0,end=0,currentSum=0;
-
-
+    int i=0,j=0,st=-1,end=-1,currSum=0;
+    while(j<n && currSum+arr[j]<=target){
+        currSum+=arr[j];
+        j++;
+    }
+    if(currSum==target){
+        cout<<i+1<<" "<<j+1<<endl;
+        return 0;
+    }
+    while()
+    return 0;
 }
