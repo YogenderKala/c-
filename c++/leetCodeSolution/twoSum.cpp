@@ -28,7 +28,15 @@ int main(){
     {
         cin>>arr[i];
     }
-    int start=0,end=0;
+    int left=0,right=n,i,j;
+    while (left<right)
+    {
+        if(arr[left]+arr[right]==target){
+            cout<<left<<right;
+        }
+        else if(arr[left]);
+    }
+
 
     // for (int i = 0; i < n; i++)
     // {
